@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.slimefun</groupId>
-    <artifactId>Slimefun</artifactId>
+    <groupId>com.github.Slimefun</groupId>
+    <artifactId>Slimefun4</artifactId>
 
     <!-- Our default version will be UNOFFICIAL, this will prevent auto updates -->
     <!-- from overriding our local test file -->
@@ -142,17 +142,17 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <!-- Plugin for Unit Tests -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version>
+<!--            <plugin>-->
+<!--                &lt;!&ndash; Plugin for Unit Tests &ndash;&gt;-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <version>3.2.5</version>-->
 
-                <configuration>
-                    <junitArtifactName>org.junit.jupiter:junit-jupiter</junitArtifactName>
-                    <trimStackTrace>false</trimStackTrace>
-                </configuration>
-            </plugin>
+<!--                <configuration>-->
+<!--                    <junitArtifactName>org.junit.jupiter:junit-jupiter</junitArtifactName>-->
+<!--                    <trimStackTrace>false</trimStackTrace>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
 
             <plugin>
                 <!-- Sonarcloud Scanner -->
